@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        
+        header h1 {
+            font-size: 24px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .hero {
+            background-image: url('speaker.jpg.webp');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero h2 {
+            font-size: 36px;
+        }
+        
+        .product-list {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .product-list h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        .product-card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .product-card .price {
+            font-size: 18px;
+            color: #e67e22;
+            margin-bottom: 10px;
+        }
+        
+        .product-card button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .product-card button:hover {
+            background-color: #555;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speakers</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Speakers</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="Cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Elevate Your Sound Experience</h2>
+    </section>
+
+    <section class="product-list">
+        <h2>Featured Speakers</h2>
+        <div class="product-card">
+            <img src="speaker1.jpg.webp" alt="JBL Flip 5">
+            <h3>JBL Flip 5</h3>
+            <p class="price">&#8377 9999</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="speaker2.jpg" alt="Bose SoundLink Revolve">
+            <h3>Bose SoundLink Revolve</h3>
+            <p class="price">&#8377 8899</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="speaker3.jpg" alt="Sonos One">
+            <h3>Sonos One</h3>
+            <p class="price">&#8377 7799</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="speaker4.jpg" alt="Ultimate Ears Wonderboom 2">
+            <h3>Ultimate Ears Wonderboom 2</h3>
+            <p class="price">&#8377 6699</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Speakers Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

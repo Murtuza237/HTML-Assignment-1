@@ -1,0 +1,191 @@
+body
+{
+    background-color: #f4f4f4;
+}
+h1
+{
+    font-size: 50px;
+}
+.Header
+{
+    padding: 15px;
+    text-align: center;
+    float:center;
+}
+.Header-Nav
+{
+    padding: 15px;
+    text-align: center;
+    border: solid white;
+    margin:15px;
+}
+.Innerheader
+{
+    margin-left: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.Header-Nav
+{
+    color:white;
+    a:hover 
+    {
+        color: orange;
+    }
+    a:active 
+    {
+        color: black;
+    }
+}
+a
+{
+    color:white;
+    a:link{
+        color:red;
+        }
+        a:visited {
+        color: white;
+        }
+        a:hover {
+        color: orange;
+        }
+        a:active {
+        color: black;
+        }
+}
+.Header-link
+{
+    font-size: 25px;
+    
+}
+.Inner-Banner-image
+{
+    padding: 20px;
+    position: relative;
+    margin: 10px;
+}
+.Banner_content
+{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.This-Class
+{
+    display:flex;
+    overflow: auto;
+    
+}
+.Container
+{
+    width: 10000px;
+    margin: 20px;
+    overflow: auto;
+    position: relative;
+    text-align: center;
+}
+.Class
+{
+    width: 350px;
+    display:block;
+    padding: 20px;
+    margin-bottom: 10px;
+    line-height: 10px;
+    background-color:#333;
+    border-radius: 10px;
+    float:none;
+    margin: 20px;
+}
+.Thumbnail
+{
+    color:darkblue;
+    padding:10px;
+    font-weight: bold;
+    text-align: center;
+}
+.Caption
+{
+    color:white;
+}
+ul
+{
+    list-style: none;
+    padding: 15px;
+}
+ul li
+{
+    margin-bottom:20px;
+    font-size: 20px;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    width: 350px;
+    text-align: center;
+    position: relative;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.navbar {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.nav-button {
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    border: solid white;
+    padding: 15px;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height section */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+}

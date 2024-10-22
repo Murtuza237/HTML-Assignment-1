@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <style>
+        body {
+            background-image: url("login.jpg.avif");
+            background-repeat: no-repeat;
+            background-size: 1500px 870px; /* Adjusts background to cover the full screen */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        </style>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SignUp</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <header>
+        <div class="navbar">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="Aboutus.html" class="nav-button">About Us</a>
+            <a href="search.html" class="nav-button">Search</a>
+        </div>
+        </header>
+
+        <section class="login-section">
+        <div class="login-container">
+            <h1>Sign Up</h1>
+            <form action="login_process.php" method="POST">
+            <input
+                type="email"
+                name="email"
+                class="input-field"
+                placeholder="Email"
+            />
+            <input
+                type="password"
+                name="password"
+                class="input-field"
+                placeholder="Password"
+            />
+            <input
+                type="password"
+                name="password"
+                class="input-field"
+                placeholder="Confirm Password"
+            />
+            <button type="submit" class="btn">Sign Up</button>
+            </form>
+            <p>
+            Already have an account? <a href="login.html" class="link">Login</a>
+            </p>
+        </div>
+        </section>
+
+        <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>

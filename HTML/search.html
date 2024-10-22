@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        
+        header h1 {
+            font-size: 24px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .search-bar {
+            max-width: 600px;
+            margin: 40px auto;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .search-bar input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .search-bar button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+        
+        .search-results {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        .search-results h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        .product-card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .product-card .price {
+            font-size: 18px;
+            color: #e67e22;
+            margin-bottom: 10px;
+        }
+        
+        .product-card button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .product-card button:hover {
+            background-color: #555;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Search Black Market</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="Cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="search-bar">
+        <input type="text" placeholder="Search for products..." value="Smartphones">
+        <button>Search</button>
+    </section>
+
+    <section class="search-results">
+        <h2>Search Results for "Smartphones"</h2>
+        <div class="product-card">
+            <img src="smart1.jpg" alt="Smartphone 1">
+            <h3>Galaxy S24 Ultra</h3>
+            <p class="price">&#8377 1,24,000</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="smart2.jpeg" alt="Smartphone 2">
+            <h3>iPhone 16 Pro</h3>
+            <p class="price">&#8377 1,25,000</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="smart3.jpg.webp" alt="Smartphone 3">
+            <h3>Google Pixel 9</h3>
+            <p class="price">&#8377 80,000</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="smart4.png.webp" alt="Smartphone 4">
+            <h3>OnePlus 12R</h3>
+            <p class="price">&#8377 45,000</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E-commerce Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

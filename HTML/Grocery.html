@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        
+        header h1 {
+            font-size: 24px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .hero {
+            background-image: url('grocery.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero h2 {
+            font-size: 36px;
+        }
+        
+        .product-list {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .product-list h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        .product-card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .product-card .price {
+            font-size: 18px;
+            color: #e67e22;
+            margin-bottom: 10px;
+        }
+        
+        .product-card button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .product-card button:hover {
+            background-color: #555;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Grocery Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="Cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Fresh Groceries Delivered to Your Doorstep</h2>
+    </section>
+
+    <section class="product-list">
+        <h2>Featured Groceries</h2>
+        <div class="product-card">
+            <img src="grocery1.jpg.webp" alt="Fresh Apples">
+            <h3>Fresh Apples</h3>
+            <p class="price">&#8377 200 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="grocery2.jpg" alt="Organic Bananas">
+            <h3>Organic Bananas</h3>
+            <p class="price">&#8377 50 per kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="grocery3.jpg" alt="Whole Wheat Bread">
+            <h3>Whole Wheat Bread</h3>
+            <p class="price">&#8377 30</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="grocery4.jpeg" alt="Milk (1 Gallon)">
+            <h3>Milk (1 Gallon)</h3>
+            <p class="price">&#8377 70 per ltr</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Grocery Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
